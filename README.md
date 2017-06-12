@@ -7,33 +7,33 @@ PopupKit is a simple and flexible iOS framework for presenting any custom view a
 
 [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=58d0dcda06b08d0001da93e8&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/58d0dcda06b08d0001da93e8/build/latest?branch=master)
 
-##Installation
+## Installation
 
-###CocoaPods
+### CocoaPods
 You can install PopupKit easily with Cocoapods
 
 ```
 pod 'PopupKit'
 ```
 
-###CocoaPods
+### CocoaPods
 You can install PopupKit easily with Carthage too
 
 ```
 github 'rynecheow/PopupKit'
 ```
 
-##Usage
+## Usage
 
 To import the framework you can either:
 
-####In Swift,
+#### In Swift,
 
 ```
 import PopupKit
 ```
 
-####In Objective-C,
+#### In Objective-C,
 
 ```
 @import PopupKit;
@@ -219,6 +219,6 @@ PopupView* popup = [PopupView popupWithContentView:contentView];
 ### TODO
 - Add support for drag-to-dismiss.
 
-##Credits
+## Credits
 KLCPopup was created by Jeff Mascia and the team at Kullect, where it's used in the [Shout Photo Messenger](http://tryshout.com) app. Aspects of KLCPopup were inspired by Sam Vermette's [SVProgressHUD](https://github.com/samvermette/SVProgressHUD). PopupKit is a modernised version of
 KLCPopup ported by Ryne Cheow.
